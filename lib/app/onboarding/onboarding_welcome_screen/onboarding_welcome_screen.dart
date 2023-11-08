@@ -1,10 +1,12 @@
-import 'package:activities_chart/app/activity_chart/activity_chart.dart';
+import 'package:activities_chart/app/ads/widgets/ads_banner_ad_widget/ads_banner_ad_widget.dart';
+import 'package:activities_chart/app/ads/widgets/ads_native_ad/ads_native_ad.dart';
 import 'package:blurrycontainer/blurrycontainer.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/src/widgets/framework.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:gradient_borders/box_borders/gradient_box_border.dart';
 
+import '../../acitivity/activity_chart/activity_chart.dart';
 import '../../core/widgets/base_stateless_widget.dart';
 import '../../themes/app_colors.dart';
 import '../../themes/edge_insets.dart';
@@ -124,7 +126,7 @@ class OnboardingWelcomeScreen extends BaseStatelessWidget<OnboardingWelcomeScree
                           ),
                         ],
                       )),
-                )
+                ),
             );
           },
         )

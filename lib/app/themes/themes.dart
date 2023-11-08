@@ -5,8 +5,6 @@ import 'fonts.dart';
 
 abstract class Themes {
   static ThemeData lightTheme = ThemeData.light(useMaterial3: true).copyWith(
-    // fontFamily: Fonts.fontNunito,
-    //   scaffoldBackgroundColor: AppColors.bgLightBlue,
       colorScheme: const ColorScheme.light(
         primary: AppColors.bgPrimary,
       ),

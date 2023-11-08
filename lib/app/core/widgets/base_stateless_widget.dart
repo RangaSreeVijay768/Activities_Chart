@@ -1,5 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
+
 import '../controllers/base_controller.dart';
 
 abstract class BaseStatelessWidget<T extends BaseController, C extends BlocBase>
@@ -12,7 +13,7 @@ abstract class BaseStatelessWidget<T extends BaseController, C extends BlocBase>
 
   // UserAccount? getLoggedUserAccount(BuildContext context) {
   //   AuthenticationCubit authenticationCubit =
-  //       BlocProvider.of<AuthenticationCubit>(context);
+  //   BlocProvider.of<AuthenticationCubit>(context);
   //   return authenticationCubit.state.userAccount ?? null;
   // }
 
