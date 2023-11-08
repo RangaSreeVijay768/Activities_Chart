@@ -2,7 +2,7 @@
 
 #Step-1:
 Clone the flutter project from the repository
-(https://github.com/RangaSreeVijay768/Activities_Chart.git)
+(https://github.com/RangaSreeVijay768/Employers_list.git)
 
 #Step-2:
 Download flutter sdk by following rules at
